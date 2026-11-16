@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\LENOVO\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.14.3</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\LENOVO\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\ggml-base-whisper.dll" Condition="Exists('$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\ggml-base-whisper.dll')">
+      <NuGetPackageId>SmartRAG</NuGetPackageId>
+      <NuGetPackageVersion>4.0.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>ggml-base-whisper.dll</TargetPath>
+      <Private>True</Private>
+      <Link>ggml-base-whisper.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\ggml-cpu-whisper.dll" Condition="Exists('$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\ggml-cpu-whisper.dll')">
+      <NuGetPackageId>SmartRAG</NuGetPackageId>
+      <NuGetPackageVersion>4.0.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>ggml-cpu-whisper.dll</TargetPath>
+      <Private>True</Private>
+      <Link>ggml-cpu-whisper.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\ggml-metal.metal" Condition="Exists('$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\ggml-metal.metal')">
+      <NuGetPackageId>SmartRAG</NuGetPackageId>
+      <NuGetPackageVersion>4.0.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>ggml-metal.metal</TargetPath>
+      <Private>True</Private>
+      <Link>ggml-metal.metal</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\ggml-whisper.dll" Condition="Exists('$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\ggml-whisper.dll')">
+      <NuGetPackageId>SmartRAG</NuGetPackageId>
+      <NuGetPackageVersion>4.0.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>ggml-whisper.dll</TargetPath>
+      <Private>True</Private>
+      <Link>ggml-whisper.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\libggml-base-whisper.dylib" Condition="Exists('$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\libggml-base-whisper.dylib')">
+      <NuGetPackageId>SmartRAG</NuGetPackageId>
+      <NuGetPackageVersion>4.0.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libggml-base-whisper.dylib</TargetPath>
+      <Private>True</Private>
+      <Link>libggml-base-whisper.dylib</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\libggml-base-whisper.so" Condition="Exists('$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\libggml-base-whisper.so')">
+      <NuGetPackageId>SmartRAG</NuGetPackageId>
+      <NuGetPackageVersion>4.0.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libggml-base-whisper.so</TargetPath>
+      <Private>True</Private>
+      <Link>libggml-base-whisper.so</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\libggml-blas-whisper.dylib" Condition="Exists('$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\libggml-blas-whisper.dylib')">
+      <NuGetPackageId>SmartRAG</NuGetPackageId>
+      <NuGetPackageVersion>4.0.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libggml-blas-whisper.dylib</TargetPath>
+      <Private>True</Private>
+      <Link>libggml-blas-whisper.dylib</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\libggml-cpu-whisper.dylib" Condition="Exists('$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\libggml-cpu-whisper.dylib')">
+      <NuGetPackageId>SmartRAG</NuGetPackageId>
+      <NuGetPackageVersion>4.0.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libggml-cpu-whisper.dylib</TargetPath>
+      <Private>True</Private>
+      <Link>libggml-cpu-whisper.dylib</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\libggml-cpu-whisper.so" Condition="Exists('$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\libggml-cpu-whisper.so')">
+      <NuGetPackageId>SmartRAG</NuGetPackageId>
+      <NuGetPackageVersion>4.0.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libggml-cpu-whisper.so</TargetPath>
+      <Private>True</Private>
+      <Link>libggml-cpu-whisper.so</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\libggml-metal-whisper.dylib" Condition="Exists('$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\libggml-metal-whisper.dylib')">
+      <NuGetPackageId>SmartRAG</NuGetPackageId>
+      <NuGetPackageVersion>4.0.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libggml-metal-whisper.dylib</TargetPath>
+      <Private>True</Private>
+      <Link>libggml-metal-whisper.dylib</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\libggml-whisper.dylib" Condition="Exists('$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\libggml-whisper.dylib')">
+      <NuGetPackageId>SmartRAG</NuGetPackageId>
+      <NuGetPackageVersion>4.0.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libggml-whisper.dylib</TargetPath>
+      <Private>True</Private>
+      <Link>libggml-whisper.dylib</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\libggml-whisper.so" Condition="Exists('$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\libggml-whisper.so')">
+      <NuGetPackageId>SmartRAG</NuGetPackageId>
+      <NuGetPackageVersion>4.0.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libggml-whisper.so</TargetPath>
+      <Private>True</Private>
+      <Link>libggml-whisper.so</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\libwhisper.dylib" Condition="Exists('$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\libwhisper.dylib')">
+      <NuGetPackageId>SmartRAG</NuGetPackageId>
+      <NuGetPackageVersion>4.0.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libwhisper.dylib</TargetPath>
+      <Private>True</Private>
+      <Link>libwhisper.dylib</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\libwhisper.so" Condition="Exists('$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\libwhisper.so')">
+      <NuGetPackageId>SmartRAG</NuGetPackageId>
+      <NuGetPackageVersion>4.0.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libwhisper.so</TargetPath>
+      <Private>True</Private>
+      <Link>libwhisper.so</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\whisper.dll" Condition="Exists('$(NuGetPackageRoot)smartrag\4.0.1\contentFiles\any\net6.0\whisper.dll')">
+      <NuGetPackageId>SmartRAG</NuGetPackageId>
+      <NuGetPackageVersion>4.0.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>whisper.dll</TargetPath>
+      <Private>True</Private>
+      <Link>whisper.dll</Link>
+    </None>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)sungaila.pdfium.blazorwebassembly\134.0.6982\buildTransitive\net9.0\Sungaila.PDFium.BlazorWebAssembly.props" Condition="Exists('$(NuGetPackageRoot)sungaila.pdfium.blazorwebassembly\134.0.6982\buildTransitive\net9.0\Sungaila.PDFium.BlazorWebAssembly.props')" />
+    <Import Project="$(NuGetPackageRoot)skiasharp.nativeassets.webassembly\3.119.1\buildTransitive\netstandard1.0\SkiaSharp.NativeAssets.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)skiasharp.nativeassets.webassembly\3.119.1\buildTransitive\netstandard1.0\SkiaSharp.NativeAssets.WebAssembly.props')" />
+    <Import Project="$(NuGetPackageRoot)pdftoimage\5.2.0\buildTransitive\net9.0\PDFtoImage.props" Condition="Exists('$(NuGetPackageRoot)pdftoimage\5.2.0\buildTransitive\net9.0\PDFtoImage.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\9.0.23\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\9.0.23\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.analyzers\3.3.4\buildTransitive\Microsoft.CodeAnalysis.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.analyzers\3.3.4\buildTransitive\Microsoft.CodeAnalysis.Analyzers.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore.design\9.0.23\build\net8.0\Microsoft.EntityFrameworkCore.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore.design\9.0.23\build\net8.0\Microsoft.EntityFrameworkCore.Design.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\LENOVO\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.4</PkgMicrosoft_CodeAnalysis_Analyzers>
+  </PropertyGroup>
+</Project>
